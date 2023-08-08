@@ -11,26 +11,26 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 1. Clone this repository or download the source code.
 2. Open the terminal in the project folder.
 
-bash
+## bash
 
 git clone https://github.com/wesleyprado/cypressTest
 
-Install the project dependencies.
+## Install the project dependencies.
 
-npm install
+```npm install```
 
-Running Tests
+## Running Tests
 
 After installing the dependencies, you can run the tests using Cypress.
 
-npx cypress open
+```npx cypress open```
 
 This will open the Cypress Test Runner, where you can select and run tests individually or all at once.
 
-Generating Reports
+## Generating Reports
 Test reports are generated automatically after test execution.
 
-HTML and JSON format reports will be generated in the cypress/reports/mochawesome folder.
+HTML and JSON format reports will be generated in the cypress/reports folder.
 
-Customization
-Make sure to configure the test files according to the website's structure and adjust element identifiers as needed.
+## Customization
+Make sure to configure the test files according to the website's structure and adjust element identifiers as needed.  
